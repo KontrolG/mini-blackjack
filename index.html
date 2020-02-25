@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="statics/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="statics/css/styles.css">
+	<meta name="author" content="German Solano (KontrolG)">
+	<meta name="description" content="Challenge from CleverProgrammer JS crash course with the help of bootstrap.">
+	<title>Blackjack Game</title>
+</head>
+
+<body>
+	<div class="container">
+		<h2>Blackjack Game</h2>
+		<h3 id="blackjack-result" class="text-muted">Let's Play!</h3>
+		<div class="row">
+			<div class="col-12 col-sm-6" id="yourBox">
+				<div>You: <span id="yourResult">0</span></div>
+			</div>
+			<div class="col-12 col-sm-6" id="dealerBox">
+				<div>Dealer: <span id="dealerResult">0</span></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 mt-2">
+				<div class="btn-group">
+					<button class="btn btn-primary" id="hitButton">Hit</button>
+					<button class="btn btn-warning" id="standButton">Stand</button>
+					<button class="btn btn-danger" id="dealButton">Deal</button>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-3"></div>
+			<div class="col-6 mt-2">
+				<table class="table table-bordered">
+					<thead>
+						<th>Wins</th>
+						<th>Losses</th>
+						<th>Draws</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td><span id="winsCount">0</span></td>
+							<td><span id="lossesCount">0</span></td>
+							<td><span id="drawsCount">0</span></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<script src="statics/js/script.js"></script>
+
+</body>
+
+</html>

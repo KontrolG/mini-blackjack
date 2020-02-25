@@ -1,0 +1,33 @@
+body {
+    overflow-y: auto;
+    color: #333;
+    font-family: Lato, 'Arial', sans-serif;
+}
+div.container {
+    position: absolute;
+    border: 0.5px solid #d8d6d6;
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    overflow-y: hidden;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div#yourBox, div#dealerBox{
+    height: 150px;
+    padding: 1%;
+    background-image: radial-gradient(circle farthest-corner at center, #6cb87e, #28a745);
+    font-size: 18px;
+}
+
+img.cardImagen{
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 64px;
+    height: 101.5px;
+}
